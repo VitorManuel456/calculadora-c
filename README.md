@@ -1,2 +1,11 @@
-# calculadora-c
-Calculadora desenvolvida em C para praticar lógica de programação.
+# Calculadora em C
+
+Projeto em desenvolvimento para praticar programação na linguagem C.
+
+## Tecnologias
+
+- Linguagem C
+
+## Status
+
+🚧 Em desenvolvimento.
