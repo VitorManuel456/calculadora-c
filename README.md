@@ -1,11 +1,39 @@
-# Calculadora em C
+# 🧮 Calculadora em C
 
-Projeto em desenvolvimento para praticar programação na linguagem C.
+Projeto desenvolvido para praticar conceitos fundamentais da linguagem C, utilizando estruturas de decisão, repetição e operações matemáticas.
 
-## Tecnologias
+## 📋 Funcionalidades
+
+- ✅ Soma
+- ✅ Subtração
+- ✅ Multiplicação
+- ✅ Divisão
+- ✅ Tratamento para divisão por zero
+- ✅ Menu interativo
+
+## 🛠️ Tecnologias
 
 - Linguagem C
 
-## Status
+## 📚 Conceitos utilizados
 
-🚧 Em desenvolvimento.
+- Variáveis
+- Entrada e saída de dados (`scanf` e `printf`)
+- Estruturas condicionais (`if` e `switch`)
+- Laço de repetição (`do...while`)
+- Operadores aritméticos
+
+## ▶️ Como executar
+
+```bash
+gcc src/main.c -o calculadora
+./calculadora
+```
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de reforçar os conhecimentos em programação na linguagem C, praticando lógica de programação e estruturas básicas utilizadas no desenvolvimento de software.
+
+## 👨‍💻 Autor
+
+**Vitor Manuel da Silva Cunha**
