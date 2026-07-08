@@ -3,6 +3,7 @@
 int main() {
 
     int opcao;
+    float num1, num2, resultado;
 
     do {
 
@@ -16,37 +17,60 @@ int main() {
         printf("0 - Sair\n");
 
         printf("\nEscolha uma opcao: ");
-        scanf("%d",&opcao);
+        scanf("%d", &opcao);
+
+        if(opcao >= 1 && opcao <= 4){
+
+            printf("\nDigite o primeiro numero: ");
+            scanf("%f", &num1);
+
+            printf("Digite o segundo numero: ");
+            scanf("%f", &num2);
+
+        }
 
         switch(opcao){
 
             case 1:
-                printf("\nFuncionalidade em desenvolvimento...\n");
+                resultado = num1 + num2;
+                printf("\nResultado: %.2f\n", resultado);
                 break;
 
             case 2:
-                printf("\nFuncionalidade em desenvolvimento...\n");
+                resultado = num1 - num2;
+                printf("\nResultado: %.2f\n", resultado);
                 break;
 
             case 3:
-                printf("\nFuncionalidade em desenvolvimento...\n");
+                resultado = num1 * num2;
+                printf("\nResultado: %.2f\n", resultado);
                 break;
 
             case 4:
-                printf("\nFuncionalidade em desenvolvimento...\n");
+
+                if(num2 == 0){
+
+                    printf("\nErro: divisao por zero!\n");
+
+                }else{
+
+                    resultado = num1 / num2;
+                    printf("\nResultado: %.2f\n", resultado);
+
+                }
+
                 break;
 
             case 0:
-                printf("\nEncerrando...\n");
+                printf("\nPrograma encerrado.\n");
                 break;
 
             default:
-                printf("\nOpcao invalida.\n");
+                printf("\nOpcao invalida!\n");
 
         }
 
-    }while(opcao != 0);
+    } while(opcao != 0);
 
     return 0;
-
 }
